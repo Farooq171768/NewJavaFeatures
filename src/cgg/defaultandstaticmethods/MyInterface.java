@@ -7,18 +7,13 @@ public interface MyInterface {
 	
 	default public List<Student> sortStudents(List<Student> stuList){
 		Collections.sort(stuList);
-		
 		return stuList;
 	}
 	
 	static public void greet(String name) {
-		System.out.println("Welcome"+name);
+		System.out.println("Welcome: "+name);
 	}
 	
 	public abstract int getMaxNum(List<Integer> intList);
 
-	
-//	default public int hashCode() {
-//		
-//	}
 }

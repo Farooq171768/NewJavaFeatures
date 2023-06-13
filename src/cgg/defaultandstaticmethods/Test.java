@@ -7,7 +7,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		MyInterface myInterface=new MyClass();
+		MyInterface myInterface=new myClass();
 		
 		
 		ArrayList<Student> arrayList = new ArrayList<>();

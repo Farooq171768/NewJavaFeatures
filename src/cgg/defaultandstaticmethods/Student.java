@@ -1,6 +1,6 @@
 package cgg.defaultandstaticmethods;
 
-public class Student implements Comparable<Student> {
+public class Student implements Comparable <Student> {
 	private String name;
 	private int age;
 	
